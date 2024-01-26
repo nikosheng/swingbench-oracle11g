@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499971</millis>
+  <sequence>0</sequence>
+  <logger>com.dom.benchmarking.swingbench.configuration.Configuration</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.configuration.Configuration</class>
+  <method>initConfiguration</method>
+  <thread>10</thread>
+  <message>Initialising configuration : "Order Entry (PLSQL) V2"</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499980</millis>
+  <sequence>1</sequence>
+  <logger>com.dom.benchmarking.swingbench.configuration.Configuration</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.configuration.Configuration</class>
+  <method>initConfiguration</method>
+  <thread>10</thread>
+  <message>Overview</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499982</millis>
+  <sequence>2</sequence>
+  <logger>com.dom.benchmarking.swingbench.configuration.Configuration</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.configuration.Configuration</class>
+  <method>initConfiguration</method>
+  <thread>10</thread>
+  <message>Connection Refresh set to : 0</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499983</millis>
+  <sequence>3</sequence>
+  <logger>com.dom.benchmarking.swingbench.configuration.Configuration</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.configuration.Configuration</class>
+  <method>initConfiguration</method>
+  <thread>10</thread>
+  <message>Username = soe, Password = soe, Connectstring = jdbc:oracle:thin:@//oraclelinux/orcl</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499984</millis>
+  <sequence>4</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.CommandLineProcessor</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.CommandLineProcessor</class>
+  <method>overrideConfig</method>
+  <thread>10</thread>
+  <message>Overriding config with command line parameters</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:39</date>
+  <millis>1406720499985</millis>
+  <sequence>5</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.CommandLineProcessor</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.CommandLineProcessor</class>
+  <method>overrideConfig</method>
+  <thread>10</thread>
+  <message>Completed overrideConfig()</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500004</millis>
+  <sequence>6</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</class>
+  <method>&lt;init&gt;</method>
+  <thread>10</thread>
+  <message>Level of statistics = simple</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500005</millis>
+  <sequence>7</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Initilization of swingbench datasource</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500006</millis>
+  <sequence>8</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Active Transaction = 6</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500007</millis>
+  <sequence>9</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Customer Registration, com.dom.benchmarking.swingbench.plsqltransactions.NewCustomerProcessV2, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500008</millis>
+  <sequence>10</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Update Customer Details, com.dom.benchmarking.swingbench.plsqltransactions.UpdateCustomerDetailsV2, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500008</millis>
+  <sequence>11</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Browse Products, com.dom.benchmarking.swingbench.plsqltransactions.BrowseProducts, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500009</millis>
+  <sequence>12</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Order Products, com.dom.benchmarking.swingbench.plsqltransactions.NewOrderProcess, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500009</millis>
+  <sequence>13</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Process Orders, com.dom.benchmarking.swingbench.plsqltransactions.ProcessOrders, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500010</millis>
+  <sequence>14</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Browse Orders, com.dom.benchmarking.swingbench.plsqltransactions.BrowseAndUpdateOrders, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500010</millis>
+  <sequence>15</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Sales Rep Query, com.dom.benchmarking.swingbench.plsqltransactions.SalesRepsOrdersQuery, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500011</millis>
+  <sequence>16</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Warehouse Query, com.dom.benchmarking.swingbench.plsqltransactions.WarehouseOrdersQuery, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500011</millis>
+  <sequence>17</sequence>
+  <logger>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.kernel.SwingBenchDataSource$Stats</class>
+  <method>init</method>
+  <thread>10</thread>
+  <message>Warehouse Activity Query, com.dom.benchmarking.swingbench.plsqltransactions.WarehouseActivityQuery, 60, false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500293</millis>
+  <sequence>18</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Customer Registration</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500294</millis>
+  <sequence>19</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Update Customer Details</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500295</millis>
+  <sequence>20</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Browse Products</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500295</millis>
+  <sequence>21</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Order Products</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500296</millis>
+  <sequence>22</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Process Orders</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500296</millis>
+  <sequence>23</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Browse Orders</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500297</millis>
+  <sequence>24</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Sales Rep Query</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500298</millis>
+  <sequence>25</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Warehouse Query</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500298</millis>
+  <sequence>26</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>Warehouse Activity Query</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500299</millis>
+  <sequence>27</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.OverviewChart</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.OverviewChart</class>
+  <method>displayCharts</method>
+  <thread>24</thread>
+  <message>displayCharts() called</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500411</millis>
+  <sequence>28</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</class>
+  <method>run</method>
+  <thread>27</thread>
+  <message>Beginning Run</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500427</millis>
+  <sequence>29</sequence>
+  <logger>com.dom.benchmarking.swingbench.configuration.Configuration</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.configuration.Configuration</class>
+  <method>setCollectingDatabaseStatistics</method>
+  <thread>10</thread>
+  <message>setCollectingDatabaseStatistics() called with value false</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:40</date>
+  <millis>1406720500450</millis>
+  <sequence>30</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</class>
+  <method>setDisplay</method>
+  <thread>10</thread>
+  <message>Splitter width = 768</message>
+</record>
+<record>
+  <date>2014-07-30T12:41:43</date>
+  <millis>1406720503757</millis>
+  <sequence>31</sequence>
+  <logger>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</logger>
+  <level>FINE</level>
+  <class>com.dom.benchmarking.swingbench.frontend.SwingBenchFrame</class>
+  <method>exitMenuItem_actionPerformed</method>
+  <thread>19</thread>
+  <message>Finished Swingbench</message>
+</record>
+</log>
