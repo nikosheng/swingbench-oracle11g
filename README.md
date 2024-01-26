@@ -17,3 +17,12 @@ for Linux/Unix or the "winbin" for windows systems.
 Ensure java (1.6 or later) is in your executable path.
 
 You should then be able to run swingbench or any of the wizards.
+
+## Something You Need to Pay Attention
+Please be aware that there will be some privileges problems during the data load generator, and if so, please add below sql for granting privileges to public.
+
+```
+GRANT EXECUTE ON dbms_stats TO public;
+GRANT EXECUTE ON dbms_lock TO public;
+GRANT SELECT ON sys.v_$parameter TO public;
+```
