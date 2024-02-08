@@ -49,6 +49,7 @@ bin/oewizard -cs //172.20.0.138/DB11G.ol7.localdomain -ts SOE -dba system -dbap 
 ```
 
 **Windows**
+
 Please enter into the `winbin` folder to execute below command
 ```
 java -cp ../launcher LauncherBootstrap -executablename oewizard oewizard -c oewizard.xml
