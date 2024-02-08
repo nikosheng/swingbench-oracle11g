@@ -43,13 +43,12 @@ GRANT SELECT ON sys.v_$parameter TO public;
 
 Once ready, we can start to generate the SOE test schema for benchmarking. We can adjust the parameters to cater for the benchmarking. For example, we can adjust `scale` to a small or large number to control the size of the dataset.
 
-Linux
+**Linux**
 ```
 bin/oewizard -cs //172.20.0.138/DB11G.ol7.localdomain -ts SOE -dba system -dbap PASSWORD## -u soe -p PASSWORD## -scale 10 -create -cl -tc 4 -v
 ```
 
-Windows
-
+**Windows**
 Please enter into the `winbin` folder to execute below command
 ```
 java -cp ../launcher LauncherBootstrap -executablename oewizard oewizard -c oewizard.xml
@@ -59,19 +58,25 @@ java -cp ../launcher LauncherBootstrap -executablename oewizard oewizard -c oewi
 ## Swingbench GUI
 Next we can launch the swingbench GUI to start benchmarking.
 
-Linux
+**Linux**
 ```
-bin/swingbench
+bin/swingbench -c oeconfig.xml
 ```
 Once the GUI is launched, we need to switch the config file to start the SOE benchmarking.
 
-Windows
+**Windows**
 ```
 java -cp ../launcher LauncherBootstrap -executablename swingbench swingbench -c swingconfig.xml
 ```
 
 ## Start Benchmarking
+We need to fill in the connection details to connect to the target database in the GUI configuration
 
+![linux-swingbench-gui](image/linux-swingbench-gui.jpg)
+
+Once ready, click the `Run` button on the top left corner to launch the testing.
+
+![swingbench-benchmark](image/swingbench-benchmark.png)
 
 ## Cleanup
 
