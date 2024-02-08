@@ -32,63 +32,63 @@
          <Transaction>
             <Id>Customer Registration</Id>
             <ShortName>NCR</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.NewCustomerProcess</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.NewCustomerProcessV2</ClassName>
             <Weight>15</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Update Customer Details</Id>
             <ShortName>UCD</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.UpdateCustomerDetails</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.UpdateCustomerDetailsV2</ClassName>
             <Weight>10</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Browse Products</Id>
             <ShortName>BP</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.BrowseProducts</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.BrowseProducts</ClassName>
             <Weight>50</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Order Products</Id>
             <ShortName>OP</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.NewOrderProcess</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.NewOrderProcess</ClassName>
             <Weight>40</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Process Orders</Id>
             <ShortName>PO</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.ProcessOrders</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.ProcessOrders</ClassName>
             <Weight>5</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Browse Orders</Id>
             <ShortName>BO</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.BrowseAndUpdateOrders</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.BrowseAndUpdateOrders</ClassName>
             <Weight>5</Weight>
             <Enabled>true</Enabled>
          </Transaction>
          <Transaction>
             <Id>Sales Rep Query</Id>
             <ShortName>SQ</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.SalesRepsOrdersQuery</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.SalesRepsOrdersQuery</ClassName>
             <Weight>2</Weight>
             <Enabled>false</Enabled>
          </Transaction>
          <Transaction>
             <Id>Warehouse Query</Id>
             <ShortName>WQ</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.WarehouseOrdersQuery</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.WarehouseOrdersQuery</ClassName>
             <Weight>2</Weight>
             <Enabled>false</Enabled>
          </Transaction>
          <Transaction>
             <Id>Warehouse Activity Query</Id>
             <ShortName>WA</ShortName>
-            <ClassName>com.dom.benchmarking.swingbench.benchmarks.orderentryjdbc.WarehouseActivityQuery</ClassName>
+            <ClassName>com.dom.benchmarking.swingbench.plsqltransactions.WarehouseActivityQuery</ClassName>
             <Weight>2</Weight>
             <Enabled>false</Enabled>
          </Transaction>

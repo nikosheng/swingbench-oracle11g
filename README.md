@@ -11,18 +11,72 @@ http://www.dominicgiles.com/swingbench.html
 ---
 Clone the repo to get the source artifact of `swingbench`
 
+```
+git clone https://github.com/nikosheng/swingbench-oracle11g.git
+```
+
 Change into the newly created swingbench directory and then either the "bin" directory
 for Linux/Unix or the "winbin" for windows systems.
 
-Ensure java (1.6 or later) is in your executable path.
+By default java isn’t installed on this VM so we’ll need to install it via yum. We’ll need to update yum first
+
+```
+sudo yum makecache fast
+sudo yum install java-1.8.0-openjdk-headless.x86_64
+java -version
+```
+
+For Windows user, please go to https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html to download the JDK8 installer
+
+**Please ensure to use Java 8 to proceed the swingbench benchmarking**
 
 You should then be able to run swingbench or any of the wizards.
 
-## Something You Need to Pay Attention
+## Swingbench Initialization
 Please be aware that there will be some privileges problems during the data load generator, and if so, please add below sql for granting privileges to public.
 
 ```
 GRANT EXECUTE ON dbms_stats TO public;
 GRANT EXECUTE ON dbms_lock TO public;
 GRANT SELECT ON sys.v_$parameter TO public;
+```
+
+Once ready, we can start to generate the SOE test schema for benchmarking. We can adjust the parameters to cater for the benchmarking. For example, we can adjust `scale` to a small or large number to control the size of the dataset.
+
+Linux
+```
+bin/oewizard -cs //172.20.0.138/DB11G.ol7.localdomain -ts SOE -dba system -dbap PASSWORD## -u soe -p PASSWORD## -scale 10 -create -cl -tc 4 -v
+```
+
+Windows
+
+Please enter into the `winbin` folder to execute below command
+```
+java -cp ../launcher LauncherBootstrap -executablename oewizard oewizard -c oewizard.xml
+```
+
+
+## Swingbench GUI
+Next we can launch the swingbench GUI to start benchmarking.
+
+Linux
+```
+bin/swingbench
+```
+Once the GUI is launched, we need to switch the config file to start the SOE benchmarking.
+
+Windows
+```
+java -cp ../launcher LauncherBootstrap -executablename swingbench swingbench -c swingconfig.xml
+```
+
+## Start Benchmarking
+
+
+## Cleanup
+
+If needed, we can clean the test schema to erase all the benchmarking objects
+
+```
+bin/oewizard -cs //172.20.0.138/DB11G.ol7.localdomain -ts SOE -dba system -dbap PASSWORD## -u soe -p PASSWORD## -scale 10 -drop -cl -tc 4 -v
 ```

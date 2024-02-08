@@ -4,7 +4,7 @@
     <Comment>Simple Order Entry benchmark using client side jdbc calls</Comment>
     <Connection>
         <UserName>soe</UserName>
-        <Password>WElcome##709394</Password>
+        <Password>enc(V8Lpfha7Da25Pu0/VABB7A==)</Password>
         <ConnectString>//172.20.0.138/DB11G.ol7.localdomain</ConnectString>
         <DriverType>Oracle jdbc Driver</DriverType>
         <Properties>
